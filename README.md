@@ -10,8 +10,8 @@
 ## Быстрый старт
 
 ```bash
-git clone <repo-url>
-cd MutualTravelWallet-backend
+git clone https://github.com/namaksimow/JourneyTogether-backend.git
+cd JourneyTogether-backend
 cp .env.example .env
 docker compose up -d postgres
 ./mvnw spring-boot:run
@@ -27,7 +27,7 @@ docker compose up -d postgres
 
 - Host: `localhost`
 - Port: `5432`
-- DB: `mutualtravelwallet`
+- DB: `journeytogether`
 - User: `postgres`
 - Password: `postgres`
 
