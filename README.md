@@ -1,6 +1,6 @@
 # JoruneyTogether Backend
 
-Стартово backend приложение на Java 21 + Spring Boot.
+Стартовоe backend приложение на Java 21 + Spring Boot.
 
 ## Requirements
 
