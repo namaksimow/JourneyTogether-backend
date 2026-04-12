@@ -1,4 +1,4 @@
-# MutualTravelWallet Backend
+# JoruneyTogether Backend
 
 Стартово backend приложение на Java 21 + Spring Boot.
 
