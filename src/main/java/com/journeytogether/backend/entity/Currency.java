@@ -24,4 +24,3 @@ public class Currency {
     @Column(nullable = false, unique = true)
     private String title;
 }
-

@@ -24,4 +24,3 @@ public class ExpenseMode {
     @Column(nullable = false, unique = true)
     private String title;
 }
-

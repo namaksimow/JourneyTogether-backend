@@ -19,7 +19,9 @@ import lombok.Setter;
 @Table(
         name = "trip_participants",
         uniqueConstraints =
-                @UniqueConstraint(name = "uk_trip_participants_trip_user", columnNames = {"trip_id", "user_id"}))
+                @UniqueConstraint(
+                        name = "uk_trip_participants_trip_user",
+                        columnNames = {"trip_id", "user_id"}))
 public class TripParticipant {
 
     @Id
@@ -38,4 +40,3 @@ public class TripParticipant {
     @JoinColumn(name = "role_id", nullable = false)
     private Role role;
 }
-

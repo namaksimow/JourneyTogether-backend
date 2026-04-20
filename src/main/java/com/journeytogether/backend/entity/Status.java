@@ -24,4 +24,3 @@ public class Status {
     @Column(nullable = false, unique = true)
     private String title;
 }
-
